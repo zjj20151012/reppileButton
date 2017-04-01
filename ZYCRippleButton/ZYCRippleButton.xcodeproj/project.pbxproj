@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6300681E8F6AF700F15D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6300671E8F6AF700F15D42 /* main.m */; };
+		AB63006B1E8F6AF700F15D42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63006A1E8F6AF700F15D42 /* AppDelegate.m */; };
+		AB63006E1E8F6AF700F15D42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63006D1E8F6AF700F15D42 /* ViewController.m */; };
+		AB6300711E8F6AF700F15D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB63006F1E8F6AF700F15D42 /* Main.storyboard */; };
+		AB6300731E8F6AF700F15D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6300721E8F6AF700F15D42 /* Assets.xcassets */; };
+		AB6300761E8F6AF700F15D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6300741E8F6AF700F15D42 /* LaunchScreen.storyboard */; };
+		AB6300811E8F6AF700F15D42 /* ZYCRippleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6300801E8F6AF700F15D42 /* ZYCRippleButtonTests.m */; };
+		AB63008C1E8F6AF700F15D42 /* ZYCRippleButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63008B1E8F6AF700F15D42 /* ZYCRippleButtonUITests.m */; };
+		AB63009F1E8F6C7600F15D42 /* ZYCRippleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63009E1E8F6C7600F15D42 /* ZYCRippleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB63007D1E8F6AF700F15D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB63005B1E8F6AF700F15D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6300621E8F6AF700F15D42;
+			remoteInfo = ZYCRippleButton;
+		};
+		AB6300881E8F6AF700F15D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB63005B1E8F6AF700F15D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6300621E8F6AF700F15D42;
+			remoteInfo = ZYCRippleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB6300631E8F6AF700F15D42 /* ZYCRippleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCRippleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6300671E8F6AF700F15D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB6300691E8F6AF700F15D42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB63006A1E8F6AF700F15D42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB63006C1E8F6AF700F15D42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB63006D1E8F6AF700F15D42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB6300701E8F6AF700F15D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB6300721E8F6AF700F15D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6300751E8F6AF700F15D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB6300771E8F6AF700F15D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB63007C1E8F6AF700F15D42 /* ZYCRippleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCRippleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6300801E8F6AF700F15D42 /* ZYCRippleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCRippleButtonTests.m; sourceTree = "<group>"; };
+		AB6300821E8F6AF700F15D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6300871E8F6AF700F15D42 /* ZYCRippleButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCRippleButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB63008B1E8F6AF700F15D42 /* ZYCRippleButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCRippleButtonUITests.m; sourceTree = "<group>"; };
+		AB63008D1E8F6AF700F15D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB63009D1E8F6C7600F15D42 /* ZYCRippleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCRippleButton.h; sourceTree = "<group>"; };
+		AB63009E1E8F6C7600F15D42 /* ZYCRippleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCRippleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6300601E8F6AF700F15D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6300791E8F6AF700F15D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6300841E8F6AF700F15D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB63005A1E8F6AF700F15D42 = {
+			isa = PBXGroup;
+			children = (
+				AB6300991E8F6B3C00F15D42 /* RippleButton */,
+				AB6300651E8F6AF700F15D42 /* ZYCRippleButton */,
+				AB63007F1E8F6AF700F15D42 /* ZYCRippleButtonTests */,
+				AB63008A1E8F6AF700F15D42 /* ZYCRippleButtonUITests */,
+				AB6300641E8F6AF700F15D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6300641E8F6AF700F15D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6300631E8F6AF700F15D42 /* ZYCRippleButton.app */,
+				AB63007C1E8F6AF700F15D42 /* ZYCRippleButtonTests.xctest */,
+				AB6300871E8F6AF700F15D42 /* ZYCRippleButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6300651E8F6AF700F15D42 /* ZYCRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB6300691E8F6AF700F15D42 /* AppDelegate.h */,
+				AB63006A1E8F6AF700F15D42 /* AppDelegate.m */,
+				AB63006C1E8F6AF700F15D42 /* ViewController.h */,
+				AB63006D1E8F6AF700F15D42 /* ViewController.m */,
+				AB63006F1E8F6AF700F15D42 /* Main.storyboard */,
+				AB6300721E8F6AF700F15D42 /* Assets.xcassets */,
+				AB6300741E8F6AF700F15D42 /* LaunchScreen.storyboard */,
+				AB6300771E8F6AF700F15D42 /* Info.plist */,
+				AB6300661E8F6AF700F15D42 /* Supporting Files */,
+			);
+			path = ZYCRippleButton;
+			sourceTree = "<group>";
+		};
+		AB6300661E8F6AF700F15D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6300671E8F6AF700F15D42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB63007F1E8F6AF700F15D42 /* ZYCRippleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6300801E8F6AF700F15D42 /* ZYCRippleButtonTests.m */,
+				AB6300821E8F6AF700F15D42 /* Info.plist */,
+			);
+			path = ZYCRippleButtonTests;
+			sourceTree = "<group>";
+		};
+		AB63008A1E8F6AF700F15D42 /* ZYCRippleButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB63008B1E8F6AF700F15D42 /* ZYCRippleButtonUITests.m */,
+				AB63008D1E8F6AF700F15D42 /* Info.plist */,
+			);
+			path = ZYCRippleButtonUITests;
+			sourceTree = "<group>";
+		};
+		AB6300991E8F6B3C00F15D42 /* RippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB63009D1E8F6C7600F15D42 /* ZYCRippleButton.h */,
+				AB63009E1E8F6C7600F15D42 /* ZYCRippleButton.m */,
+			);
+			path = RippleButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6300621E8F6AF700F15D42 /* ZYCRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6300901E8F6AF700F15D42 /* Build configuration list for PBXNativeTarget "ZYCRippleButton" */;
+			buildPhases = (
+				AB63005F1E8F6AF700F15D42 /* Sources */,
+				AB6300601E8F6AF700F15D42 /* Frameworks */,
+				AB6300611E8F6AF700F15D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCRippleButton;
+			productName = ZYCRippleButton;
+			productReference = AB6300631E8F6AF700F15D42 /* ZYCRippleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB63007B1E8F6AF700F15D42 /* ZYCRippleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6300931E8F6AF700F15D42 /* Build configuration list for PBXNativeTarget "ZYCRippleButtonTests" */;
+			buildPhases = (
+				AB6300781E8F6AF700F15D42 /* Sources */,
+				AB6300791E8F6AF700F15D42 /* Frameworks */,
+				AB63007A1E8F6AF700F15D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB63007E1E8F6AF700F15D42 /* PBXTargetDependency */,
+			);
+			name = ZYCRippleButtonTests;
+			productName = ZYCRippleButtonTests;
+			productReference = AB63007C1E8F6AF700F15D42 /* ZYCRippleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB6300861E8F6AF700F15D42 /* ZYCRippleButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6300961E8F6AF700F15D42 /* Build configuration list for PBXNativeTarget "ZYCRippleButtonUITests" */;
+			buildPhases = (
+				AB6300831E8F6AF700F15D42 /* Sources */,
+				AB6300841E8F6AF700F15D42 /* Frameworks */,
+				AB6300851E8F6AF700F15D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6300891E8F6AF700F15D42 /* PBXTargetDependency */,
+			);
+			name = ZYCRippleButtonUITests;
+			productName = ZYCRippleButtonUITests;
+			productReference = AB6300871E8F6AF700F15D42 /* ZYCRippleButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB63005B1E8F6AF700F15D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zjj;
+				TargetAttributes = {
+					AB6300621E8F6AF700F15D42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F5C5U8HC7H;
+						ProvisioningStyle = Automatic;
+					};
+					AB63007B1E8F6AF700F15D42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F5C5U8HC7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB6300621E8F6AF700F15D42;
+					};
+					AB6300861E8F6AF700F15D42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F5C5U8HC7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB6300621E8F6AF700F15D42;
+					};
+				};
+			};
+			buildConfigurationList = AB63005E1E8F6AF700F15D42 /* Build configuration list for PBXProject "ZYCRippleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB63005A1E8F6AF700F15D42;
+			productRefGroup = AB6300641E8F6AF700F15D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6300621E8F6AF700F15D42 /* ZYCRippleButton */,
+				AB63007B1E8F6AF700F15D42 /* ZYCRippleButtonTests */,
+				AB6300861E8F6AF700F15D42 /* ZYCRippleButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6300611E8F6AF700F15D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6300761E8F6AF700F15D42 /* LaunchScreen.storyboard in Resources */,
+				AB6300731E8F6AF700F15D42 /* Assets.xcassets in Resources */,
+				AB6300711E8F6AF700F15D42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB63007A1E8F6AF700F15D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6300851E8F6AF700F15D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB63005F1E8F6AF700F15D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB63006E1E8F6AF700F15D42 /* ViewController.m in Sources */,
+				AB63006B1E8F6AF700F15D42 /* AppDelegate.m in Sources */,
+				AB63009F1E8F6C7600F15D42 /* ZYCRippleButton.m in Sources */,
+				AB6300681E8F6AF700F15D42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6300781E8F6AF700F15D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6300811E8F6AF700F15D42 /* ZYCRippleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6300831E8F6AF700F15D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB63008C1E8F6AF700F15D42 /* ZYCRippleButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB63007E1E8F6AF700F15D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6300621E8F6AF700F15D42 /* ZYCRippleButton */;
+			targetProxy = AB63007D1E8F6AF700F15D42 /* PBXContainerItemProxy */;
+		};
+		AB6300891E8F6AF700F15D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6300621E8F6AF700F15D42 /* ZYCRippleButton */;
+			targetProxy = AB6300881E8F6AF700F15D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB63006F1E8F6AF700F15D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6300701E8F6AF700F15D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB6300741E8F6AF700F15D42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6300751E8F6AF700F15D42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB63008E1E8F6AF700F15D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB63008F1E8F6AF700F15D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6300911E8F6AF700F15D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = ZYCRippleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjitteam.zjj.ZYCRippleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB6300921E8F6AF700F15D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = ZYCRippleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjitteam.zjj.ZYCRippleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB6300941E8F6AF700F15D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = ZYCRippleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjitteam.zjj.ZYCRippleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCRippleButton.app/ZYCRippleButton";
+			};
+			name = Debug;
+		};
+		AB6300951E8F6AF700F15D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = ZYCRippleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjitteam.zjj.ZYCRippleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCRippleButton.app/ZYCRippleButton";
+			};
+			name = Release;
+		};
+		AB6300971E8F6AF700F15D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = ZYCRippleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjitteam.zjj.ZYCRippleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYCRippleButton;
+			};
+			name = Debug;
+		};
+		AB6300981E8F6AF700F15D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = ZYCRippleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjitteam.zjj.ZYCRippleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYCRippleButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB63005E1E8F6AF700F15D42 /* Build configuration list for PBXProject "ZYCRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB63008E1E8F6AF700F15D42 /* Debug */,
+				AB63008F1E8F6AF700F15D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6300901E8F6AF700F15D42 /* Build configuration list for PBXNativeTarget "ZYCRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6300911E8F6AF700F15D42 /* Debug */,
+				AB6300921E8F6AF700F15D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB6300931E8F6AF700F15D42 /* Build configuration list for PBXNativeTarget "ZYCRippleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6300941E8F6AF700F15D42 /* Debug */,
+				AB6300951E8F6AF700F15D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB6300961E8F6AF700F15D42 /* Build configuration list for PBXNativeTarget "ZYCRippleButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6300971E8F6AF700F15D42 /* Debug */,
+				AB6300981E8F6AF700F15D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB63005B1E8F6AF700F15D42 /* Project object */;
+}
